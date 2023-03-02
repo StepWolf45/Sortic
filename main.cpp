@@ -1,8 +1,5 @@
 #include "sortic.h"
-
-string colored(string text){
-    return "\x1B[31m"+text+"\033[0m\t\t";
-}
+#include "color.hpp"
 
 void printArray(const vector<int> arr, ofstream &inputToFile){
     for(long long i = 0; i < arr.size(); i++){
@@ -14,8 +11,8 @@ void printArray(const vector<int> arr, ofstream &inputToFile){
 }
 
 void printStep(const vector<int> &a, const vector<int> &b, string functionName, ofstream &outputToFile, ofstream &outputToFileCommand){
-    if (functionName == "rra") functionName = colored(functionName);
-    cout << functionName << endl;
+
+    cout << dye::aqua(functionName) << endl;
     outputToFile << functionName << endl;
     outputToFileCommand<<functionName<<endl;
     cout << "Vector A: ";
