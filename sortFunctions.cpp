@@ -42,7 +42,7 @@ void sorter(vector<int> &a, vector<int> &b, ofstream &outputToFile, int &numberO
         buffer = b.size();
         for(long long i = 0; i < buffer; i++){
             pa(a, b);
-            printStep(a, b, "pb", outputToFile,outputToFileCommand);
+            printStep(a, b, "pa", outputToFile,outputToFileCommand);
             numberOfIterations++;
         }
         cout << endl;

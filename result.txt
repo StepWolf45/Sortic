@@ -1,0 +1,44 @@
+Initial array: 2 4 3 5 
+
+pb
+Vector A: 4 3 5 
+Vector B: 2 
+
+[31mrra[0m		
+Vector A: 3 5 4 
+Vector B: 2 
+
+pb
+Vector A: 5 4 
+Vector B: 3 2 
+
+[31mrra[0m		
+Vector A: 4 5 
+Vector B: 3 2 
+
+pb
+Vector A: 5 
+Vector B: 4 3 2 
+
+pb
+Vector A: empty
+Vector B: 5 4 3 2 
+
+pb
+Vector A: 5 
+Vector B: 4 3 2 
+
+pb
+Vector A: 4 5 
+Vector B: 3 2 
+
+pb
+Vector A: 3 4 5 
+Vector B: 2 
+
+pb
+Vector A: 2 3 4 5 
+Vector B: empty
+
+2 3 4 5 
+Number of iterations: 10

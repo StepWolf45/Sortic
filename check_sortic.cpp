@@ -70,6 +70,15 @@ int main(){
         else if (cmd == "rra") rra(a);
         else if (cmd == "rrb") rrb(b);
         else if (cmd == "rrr") rrr(a, b);
+            for(int i=0; i<a.size();i++){
+                  cout<<a[i]<<" ";
+            }
+            cout<<endl;
+             for(int i=0; i<b.size();i++){
+                cout<<b[i]<<" ";
+            }
+            cout<<endl;
+            cout<<endl;
     }
     for(int i=0; i<a.size();i++){
         cout<<a[i]<<" ";

@@ -1,8 +1,7 @@
 #include "sortic.h"
 
 string colored(string text){
-    // It works on Linux, I don't know(and don't want to know), what about windows
-    return text;
+    return "\x1B[31m"+text+"\033[0m\t\t";
 }
 
 void printArray(const vector<int> arr, ofstream &inputToFile){
